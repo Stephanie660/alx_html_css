@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     height: 100vh; /* full height of the viewport */
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 main {
     display: flex;
@@ -25,4 +26,9 @@ header, footer {
     background-color: #ccc;
     padding: 15px;
     text-align: center;
+}
+.logo {
+    font-size: 2rem;
+    margin-right: 20px;
+    color: gold;
 }
